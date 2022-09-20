@@ -453,5 +453,13 @@
     "Description": "",
     "Parameters": [
     ]
+  },
+  {
+    "Index": "0x601C",
+    "ReturnType": "void",
+    "Name": "FLD_GET_SEED",
+    "Description": "",
+    "Parameters": [
+    ]
   }
 ]
