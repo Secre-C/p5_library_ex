@@ -17,6 +17,10 @@
    - void AI_SET_ENID_TARGETABLE_STATE( int enemyID, bool targetableState ) -- use from encounter script, toggles enemy's ability to be targetted by players
    - void AI_SET_TARGETABLE_STATE( bool targetableState ) -- use inside enemy BF script, toggles enemy's own ability to be targetted by players
    - void AI_ACT_SUMMON_UNITS( int EnemyID, int EnemyID, int EnemyID, int EnemyID, int customBED_subID ) -- use inside enemy BF script, summons target amount of enemies, use id 0 to not summon an enemy on selected slot, use 0 to use normal summon visual effect (note: exceeding 5 total enemies in a battle will crash the game!)
+   - void FLD_GET_SEED() -- has the same functionality as FLD_OPEN_TBOX, but uses will seed get animations.
+   - void DNGEVT_SET_SE( bool enable ) -- works like FLD_SETBANK_BGENV_VOICE, but will instead copy the event voicelines bank to the sfx bank for use with VOICE3.   
+   - int FLD_CAMERA_CHECK_LOCK() -- Returns 1 if camera is locked, 0 if not.
+   - int FLD_CHECK_SUBJECT_MODE() -- Returns 1 if crawling through a vent, 0 if not. 
 
 
  Notes:

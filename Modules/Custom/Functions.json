@@ -461,5 +461,34 @@
     "Description": "",
     "Parameters": [
     ]
+  },
+  {
+    "Index": "0x601D",
+    "ReturnType": "void",
+    "Name": "DNGEVT_SET_SE",
+    "Description": "",
+    "Parameters": [
+      {
+        "Type": "int",
+        "Name": "param1",
+        "Description": ""
+      }
+    ]
+  },
+  {
+    "Index": "0x601E",
+    "ReturnType": "int",
+    "Name": "FLD_CAMERA_CHECK_LOCK",
+    "Description": "",
+    "Parameters": [
+    ]
+  },
+  {
+    "Index": "0x601F",
+    "ReturnType": "int",
+    "Name": "FLD_CHECK_SUBJECT_MODE",
+    "Description": "",
+    "Parameters": [
+    ]
   }
 ]
