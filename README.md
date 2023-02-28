@@ -21,6 +21,8 @@
    - void DNGEVT_SET_SE( bool enable ) -- works like FLD_SETBANK_BGENV_VOICE, but will instead copy the event voicelines bank to the sfx bank for use with VOICE3.   
    - int FLD_CAMERA_CHECK_LOCK() -- Returns 1 if camera is locked, 0 if not.
    - int FLD_CHECK_SUBJECT_MODE() -- Returns 1 if crawling through a vent, 0 if not. 
+   - void FLD_SET_MODEL_NEAR_CLIP(float nearclip) -- adjust the env model near clip. 
+   - void FLD_SET_MODEL_FAR_CLIP(float farclip) -- adjust the env model far clip. 
 
 
  Notes:

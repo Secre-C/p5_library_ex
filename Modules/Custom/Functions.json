@@ -490,5 +490,31 @@
     "Description": "",
     "Parameters": [
     ]
+  },
+  {
+    "Index": "0x6020",
+    "ReturnType": "void",
+    "Name": "FLD_SET_MODEL_NEAR_CLIP",
+    "Description": "Set the camera near clip for models",
+    "Parameters": [
+      {
+        "Type": "float",
+        "Name": "NearClip",
+        "Description": ""
+      }
+	]
+  },
+  {
+    "Index": "0x6021",
+    "ReturnType": "void",
+    "Name": "FLD_SET_MODEL_FAR_CLIP",
+    "Description": "Set the camera far clip for models",
+    "Parameters": [
+      {
+        "Type": "float",
+        "Name": "FarClip",
+        "Description": ""
+      }
+	]
   }
 ]
