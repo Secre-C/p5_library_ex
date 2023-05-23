@@ -516,5 +516,18 @@
         "Description": ""
       }
 	]
+  },
+  {
+    "Index": "0x6022",
+    "ReturnType": "void",
+    "Name": "FLD_DOOR_SEPARATE_CUE",
+    "Description": "Use a workaround for door sounds",
+    "Parameters": [
+      {
+        "Type": "int",
+        "Name": "Enable",
+        "Description": ""
+      }
+	]
   }
 ]
