@@ -547,18 +547,5 @@
     "Parameters": [
       
 	]
-  },
-  {
-    "Index": "0x6025",
-    "ReturnType": "void",
-    "Name": "DNGSE_PLAY",
-    "Description": "Use a workaround for door sounds",
-    "Parameters": [
-      {
-        "Type": "int",
-        "Name": "Enable",
-        "Description": ""
-      }
-	]
   }
 ]
