@@ -465,7 +465,7 @@
   {
     "Index": "0x601D",
     "ReturnType": "void",
-    "Name": "DNGEVT_SET_SE",
+    "Name": "FLD_SETBANK_DNGSE_VOICE",
     "Description": "",
     "Parameters": [
       {
@@ -521,6 +521,37 @@
     "Index": "0x6022",
     "ReturnType": "void",
     "Name": "FLD_DOOR_SEPARATE_CUE",
+    "Description": "Use a workaround for door sounds",
+    "Parameters": [
+      {
+        "Type": "int",
+        "Name": "Enable",
+        "Description": ""
+      }
+	]
+  },
+  {
+    "Index": "0x6023",
+    "ReturnType": "void",
+    "Name": "DUNGEON_ACB_SETUP",
+    "Description": "Use a workaround for door sounds",
+    "Parameters": [
+      
+	]
+  },
+  {
+    "Index": "0x6024",
+    "ReturnType": "void",
+    "Name": "DUNGEON_ACB_SYNC",
+    "Description": "Use a workaround for door sounds",
+    "Parameters": [
+      
+	]
+  },
+  {
+    "Index": "0x6025",
+    "ReturnType": "void",
+    "Name": "DNGSE_PLAY",
     "Description": "Use a workaround for door sounds",
     "Parameters": [
       {
