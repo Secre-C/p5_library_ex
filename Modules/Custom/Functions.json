@@ -570,5 +570,18 @@
         "Description": ""
       }
 	]
+  },
+  {
+    "Index": "0x6026",
+    "ReturnType": "int",
+    "Name": "CHK_PERSONA_EVOLUTION",
+    "Description": "Get the persona evolution tier",
+    "Parameters": [
+      {
+        "Type": "int",
+        "Name": "unitID",
+        "Description": ""
+      }
+	]
   }
 ]
