@@ -583,5 +583,23 @@
         "Description": ""
       }
 	]
+  },
+  {
+    "Index": "0x6027",
+    "ReturnType": "void",
+    "Name": "FLD_PC_MODEL_OVERWRITE",
+    "Description": "Overwrite the player character model with a currently loaded model",
+    "Parameters": [
+      {
+        "Type": "int",
+        "Name": "reshnd",
+        "Description": ""
+      },
+      {
+        "Type": "int",
+        "Name": "enable",
+        "Description": ""
+      }
+	]
   }
 ]
