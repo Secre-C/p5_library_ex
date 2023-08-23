@@ -601,5 +601,82 @@
         "Description": ""
       }
 	]
+  },
+  {
+    "Index": "0x6028",
+    "ReturnType": "void",
+    "Name": "FLD_GMC_LIGHT_ADD",
+    "Description": "creates a light switch instance",
+    "Parameters": [
+      {
+        "Type": "int",
+        "Name": "reshnd",
+        "Description": ""
+      },
+      {
+        "Type": "int",
+        "Name": "id",
+        "Description": ""
+      },
+      {
+        "Type": "int",
+        "Name": "group",
+        "Description": ""
+      },
+      {
+        "Type": "int",
+        "Name": "colors",
+        "Description": "bitfield of the colors that the switch can affect"
+      }
+	]
+  },
+  {
+    "Index": "0x6029",
+    "ReturnType": "int",
+    "Name": "FLD_GMC_LIGHT_GET_UID",
+    "Description": "Get the object reshnd of a switch with a group and id",
+    "Parameters": [
+      {
+        "Type": "int",
+        "Name": "id",
+        "Description": ""
+      },
+      {
+        "Type": "int",
+        "Name": "group",
+        "Description": ""
+      }
+	]
+  },
+  {
+    "Index": "0x602a",
+    "ReturnType": "int",
+    "Name": "FLD_GMC_LIGHT_CTRL",
+    "Description": "Change the light for a switch and return the new color",
+    "Parameters": [
+      {
+        "Type": "int",
+        "Name": "id",
+        "Description": ""
+      },
+      {
+        "Type": "int",
+        "Name": "group",
+        "Description": ""
+      },
+      {
+        "Type": "int",
+        "Name": "current_color",
+        "Description": "vanilla implementation doesn't change the color in code, so this serves to update the light manually through script"
+      }
+	]
+  },
+  {
+    "Index": "0x602b",
+    "ReturnType": "void",
+    "Name": "FLD_GMC_LIGHT_FREE",
+    "Description": "Free light puzzle data (hopefully prevents crashes)",
+    "Parameters": [
+	]
   }
 ]
