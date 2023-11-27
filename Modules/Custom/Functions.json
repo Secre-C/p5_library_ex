@@ -683,7 +683,46 @@
     "Index": "0x602c",
     "ReturnType": "int",
     "Name": "FLD_PC_GET_WEAPON_RESHND",
-    "Description": "Gets the resource handle of the player models weapon.",
+    "Description": "Gets the resource handle of the player model's weapon.",
+    "Parameters": [
+		{
+			"Type": "int",
+			"Name": "playerHandle",
+			"Description": "player model resource handle."
+		}
+	]
+  },
+  {
+    "Index": "0x602d",
+    "ReturnType": "int",
+    "Name": "FLD_PC_GET_WEAPON_RESHND2",
+    "Description": "Gets the resource handle of the player model's 2nd weapon.",
+    "Parameters": [
+		{
+			"Type": "int",
+			"Name": "playerHandle",
+			"Description": "player model resource handle."
+		}
+	]
+  },
+  {
+    "Index": "0x602e",
+    "ReturnType": "int",
+    "Name": "FLD_PC_GET_GUN_RESHND",
+    "Description": "Gets the resource handle of the player model's 2nd gun.",
+    "Parameters": [
+		{
+			"Type": "int",
+			"Name": "playerHandle",
+			"Description": "player model resource handle."
+		}
+	]
+  },
+  {
+    "Index": "0x602f",
+    "ReturnType": "int",
+    "Name": "FLD_PC_GET_GUN_RESHND2",
+    "Description": "Gets the resource handle of the player model's 2nd gun.",
     "Parameters": [
 		{
 			"Type": "int",
