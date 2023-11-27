@@ -678,5 +678,18 @@
     "Description": "Free light puzzle data (hopefully prevents crashes)",
     "Parameters": [
 	]
+  },
+  {
+    "Index": "0x602c",
+    "ReturnType": "int",
+    "Name": "FLD_PC_GET_WEAPON_RESHND",
+    "Description": "Gets the resource handle of the player models weapon.",
+    "Parameters": [
+		{
+			"Type": "int",
+			"Name": "playerHandle",
+			"Description": "player model resource handle."
+		}
+	]
   }
 ]
