@@ -730,5 +730,74 @@
 			"Description": "player model resource handle."
 		}
 	]
+  },
+  {
+    "Index": "0x6030",
+    "ReturnType": "void",
+    "Name": "MDL_TRACK_ANIM_SPEED",
+    "Description": "sets the speed of a currently playing blend anim",
+    "Parameters": [
+		{
+			"Type": "int",
+			"Name": "model resource handle",
+			"Description": "target model resource handle."
+		},
+		{
+			"Type": "int",
+			"Name": "blend anim handle",
+			"Description": "blend anim handle"
+		},
+		{
+			"Type": "float",
+			"Name": "anim speed",
+			"Description": "anim speed"
+		}
+	]
+  },
+  {
+    "Index": "0x6031",
+    "ReturnType": "void",
+    "Name": "MDL_TRACK_ANIM_SEEK",
+    "Description": "skips to a specific frame of a bland anim",
+    "Parameters": [
+		{
+			"Type": "int",
+			"Name": "model resource handle",
+			"Description": "target model resource handle."
+		},
+		{
+			"Type": "int",
+			"Name": "blend anim handle",
+			"Description": "blend anim handle"
+		},
+		{
+			"Type": "int",
+			"Name": "anim frame",
+			"Description": "anim frame"
+		}
+	]
+  },
+  {
+    "Index": "0x6032",
+    "ReturnType": "float",
+    "Name": "FLD_GET_GROUND_Y",
+    "Description": "takes field coordinates and returns the y value of the ground collision",
+    "Parameters": [
+		{
+			"Type": "float",
+			"Name": "x",
+			"Description": ""
+		},
+		{
+			"Type": "float",
+			"Name": "y",
+			"Description": ""
+		},
+		{
+			"Type": "float",
+			"Name": "z",
+			"Description": ""
+		}
+	]
   }
 ]
