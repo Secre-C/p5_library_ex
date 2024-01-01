@@ -758,7 +758,7 @@
     "Index": "0x6031",
     "ReturnType": "void",
     "Name": "MDL_TRACK_ANIM_SEEK",
-    "Description": "skips to a specific frame of a bland anim",
+    "Description": "skips to a specific frame of a blend anim",
     "Parameters": [
 		{
 			"Type": "int",
@@ -797,6 +797,75 @@
 			"Type": "float",
 			"Name": "z",
 			"Description": ""
+		}
+	]
+  },
+  {
+    "Index": "0x6033",
+    "ReturnType": "void",
+    "Name": "MDL_TRACK_ANIM_SEEK_TIME",
+    "Description": "skips to a specific frame of a blend anim",
+    "Parameters": [
+		{
+			"Type": "int",
+			"Name": "model resource handle",
+			"Description": "target model resource handle."
+		},
+		{
+			"Type": "int",
+			"Name": "blend anim handle",
+			"Description": "blend anim handle"
+		},
+		{
+			"Type": "float",
+			"Name": "anim time",
+			"Description": "anim time"
+		}
+	]
+  },
+  {
+    "Index": "0x6034",
+    "ReturnType": "void",
+    "Name": "MDL_TRACK_ANIM_FRAMESYNC",
+    "Description": "Waits until a specific blend animation frame is hit",
+    "Parameters": [
+		{
+			"Type": "int",
+			"Name": "model resource handle",
+			"Description": "target model resource handle."
+		},
+		{
+			"Type": "int",
+			"Name": "blend anim handle",
+			"Description": "blend anim handle"
+		},
+		{
+			"Type": "int",
+			"Name": "anim frame",
+			"Description": "anim frame"
+		}
+	]
+  },
+  {
+    "Index": "0x6035",
+    "ReturnType": "void",
+    "Name": "MDL_TRACK_ANIM_TIMESYNC",
+    "Description": "Waits until a specific blend animation time is hit",
+    "Parameters": [
+		{
+			"Type": "int",
+			"Name": "model resource handle",
+			"Description": "target model resource handle."
+		},
+		{
+			"Type": "int",
+			"Name": "blend anim handle",
+			"Description": "blend anim handle"
+		},
+		{
+			"Type": "float",
+			"Name": "anim time",
+			"Description": "anim time"
 		}
 	]
   }
