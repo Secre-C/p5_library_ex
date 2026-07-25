@@ -1,5 +1,238 @@
 [
   {
+    "Index": "0x0180",
+    "ReturnType": "void",
+    "Name": "SND_VOICE_DLYEVT_SETUP",
+    "Description": "",
+    "Parameters": [
+      {
+        "Type": "int",
+        "Name": "param1",
+        "Description": ""
+      },
+      {
+        "Type": "int",
+        "Name": "param2",
+        "Description": ""
+      }
+    ],
+    "Comment": ""
+  },
+  {
+    "Index": "0x0181",
+    "ReturnType": "void",
+    "Name": "SND_VOICE_DLYEVT_SYNC",
+    "Description": "",
+    "Parameters": [],
+    "Comment": ""
+  },
+  {
+    "Index": "0x0182",
+    "ReturnType": "void",
+    "Name": "SND_VOICE_DLYEVT_FREE",
+    "Description": "Empty function",
+    "Parameters": [],
+    "Comment": ""
+  },
+  {
+    "Index": "0x0188",
+    "ReturnType": "int",
+    "Name": "CHK_PERSONA_EVOLUTION",
+    "Description": "",
+    "Parameters": [
+      {
+        "Type": "int",
+        "Name": "param1",
+        "Description": ""
+      }
+    ],
+    "Comment": ""
+  },
+  {
+    "Index": "0x1064",
+    "ReturnType": "void",
+    "Name": "FLD_GET_SEED",
+    "Description": "",
+    "Parameters": [],
+    "Comment": ""
+  },
+  {
+    "Index": "0x1192",
+    "ReturnType": "int",
+    "Name": "FLD_CHECK_SUBJECT_MODE",
+    "Description": "",
+    "Parameters": [],
+    "Comment": ""
+  },
+  {
+    "Index": "0x12c8",
+    "ReturnType": "float",
+    "Name": "FLD_CAMERA_GET_YAW",
+    "Description": "",
+    "Parameters": [],
+    "Comment": ""
+  },
+  {
+    "Index": "0x12cc",
+    "ReturnType": "int",
+    "Name": "FLD_PC_ID_GET_CURRENT_RESHND",
+    "Description": "",
+    "Parameters": [
+      {
+        "Type": "int",
+        "Name": "param1",
+        "Description": ""
+      }
+    ],
+    "Comment": ""
+  },
+  {
+    "Index": "0x1338",
+    "ReturnType": "void",
+    "Name": "FLD_REQ_NEXT_SCN_FADE",
+    "Description": "",
+    "Parameters": [
+      {
+        "Type": "int",
+        "Name": "param1",
+        "Description": ""
+      },
+      {
+        "Type": "int",
+        "Name": "param2",
+        "Description": ""
+      },
+      {
+        "Type": "int",
+        "Name": "param3",
+        "Description": ""
+      },
+      {
+        "Type": "int",
+        "Name": "param4",
+        "Description": ""
+      }
+    ],
+    "Comment": ""
+  },
+  {
+    "Index": "0x134c",
+    "ReturnType": "void",
+    "Name": "FLD_MODEL_SET_NPC_POS",
+    "Description": "",
+    "Parameters": [
+      {
+        "Type": "int",
+        "Name": "param1",
+        "Description": ""
+      },
+      {
+        "Type": "int",
+        "Name": "param2",
+        "Description": ""
+      }
+    ],
+    "Comment": ""
+  },
+  {
+    "Index": "0x134d",
+    "ReturnType": "int",
+    "Name": "FLD_CAMERA_CHECK_LOCK",
+    "Description": "",
+    "Parameters": [],
+    "Comment": ""
+  },
+  {
+    "Index": "0x1366",
+    "ReturnType": "void",
+    "Name": "FLD_PC_SET_MOVE_SPEED",
+    "Description": "",
+    "Parameters": [
+      {
+        "Type": "float",
+        "Name": "param1",
+        "Description": ""
+      },
+      {
+        "Type": "float",
+        "Name": "param2",
+        "Description": ""
+      },
+      {
+        "Type": "int",
+        "Name": "param3",
+        "Description": ""
+      }
+    ],
+    "Comment": ""
+  },
+  {
+    "Index": "0x1378",
+    "ReturnType": "void",
+    "Name": "FLD_SE_PLAY",
+    "Description": "",
+    "Parameters": [
+      {
+        "Type": "int",
+        "Name": "param1",
+        "Description": ""
+      }
+    ],
+    "Comment": ""
+  },
+  {
+    "Index": "0x1380",
+    "ReturnType": "void",
+    "Name": "FLD_COMSE_PLAY",
+    "Description": "",
+    "Parameters": [
+      {
+        "Type": "int",
+        "Name": "param1",
+        "Description": ""
+      }
+    ],
+    "Comment": ""
+  },
+  {
+    "Index": "0x1381",
+    "ReturnType": "void",
+    "Name": "FLD_COMSE_STOP",
+    "Description": "",
+    "Parameters": [
+      {
+        "Type": "int",
+        "Name": "param1",
+        "Description": ""
+      }
+    ],
+    "Comment": ""
+  },
+  {
+    "Index": "0x1389",
+    "ReturnType": "float",
+    "Name": "FLD_GET_GROUND_Y",
+    "Description": "",
+    "Parameters": [
+      {
+        "Type": "int",
+        "Name": "param1",
+        "Description": ""
+      },
+      {
+        "Type": "int",
+        "Name": "param2",
+        "Description": ""
+      },
+      {
+        "Type": "int",
+        "Name": "param3",
+        "Description": ""
+      }
+    ],
+    "Comment": ""
+  },
+  {
     "Index": "0x6000",
     "ReturnType": "void",
     "Name": "EX_PRINTF",
@@ -36,8 +269,7 @@
     "ReturnType": "int",
     "Name": "GET_ENCOUNTER_ID",
     "Description": "",
-    "Parameters": [
-    ]
+    "Parameters": []
   },
   {
     "Index": "0x6003",
@@ -75,8 +307,7 @@
     "ReturnType": "int",
     "Name": "GET_SEQ_ID",
     "Description": "",
-    "Parameters": [
-    ]
+    "Parameters": []
   },
   {
     "Index": "0x6006",
@@ -178,8 +409,7 @@
     "ReturnType": "int",
     "Name": "PLAYER_HAS_INVALID_SKILL",
     "Description": "",
-    "Parameters": [
-    ]
+    "Parameters": []
   },
   {
     "Index": "0x600C",
@@ -422,16 +652,14 @@
     "ReturnType": "void",
     "Name": "PREVENT_PLAYER_LOSS",
     "Description": "",
-    "Parameters": [
-    ]
+    "Parameters": []
   },
   {
     "Index": "0x6019",
     "ReturnType": "void",
     "Name": "FORCE_LOAD_DLC_BGM",
     "Description": "",
-    "Parameters": [
-    ]
+    "Parameters": []
   },
   {
     "Index": "0x601A",
@@ -451,16 +679,14 @@
     "ReturnType": "void",
     "Name": "SET_CHALLENGE_BATTLE",
     "Description": "",
-    "Parameters": [
-    ]
+    "Parameters": []
   },
   {
     "Index": "0x601C",
     "ReturnType": "void",
     "Name": "FLD_GET_SEED",
     "Description": "",
-    "Parameters": [
-    ]
+    "Parameters": []
   },
   {
     "Index": "0x601D",
@@ -480,16 +706,14 @@
     "ReturnType": "int",
     "Name": "FLD_CAMERA_CHECK_LOCK",
     "Description": "",
-    "Parameters": [
-    ]
+    "Parameters": []
   },
   {
     "Index": "0x601F",
     "ReturnType": "int",
     "Name": "FLD_CHECK_SUBJECT_MODE",
     "Description": "",
-    "Parameters": [
-    ]
+    "Parameters": []
   },
   {
     "Index": "0x6020",
@@ -502,7 +726,7 @@
         "Name": "NearClip",
         "Description": ""
       }
-	]
+    ]
   },
   {
     "Index": "0x6021",
@@ -515,7 +739,7 @@
         "Name": "FarClip",
         "Description": ""
       }
-	]
+    ]
   },
   {
     "Index": "0x6022",
@@ -528,25 +752,21 @@
         "Name": "Enable",
         "Description": ""
       }
-	]
+    ]
   },
   {
     "Index": "0x6023",
     "ReturnType": "void",
     "Name": "DUNGEON_ACB_SETUP",
     "Description": "Use a workaround for door sounds",
-    "Parameters": [
-      
-	]
+    "Parameters": []
   },
   {
     "Index": "0x6024",
     "ReturnType": "void",
     "Name": "DUNGEON_ACB_SYNC",
     "Description": "Use a workaround for door sounds",
-    "Parameters": [
-      
-	]
+    "Parameters": []
   },
   {
     "Index": "0x6025",
@@ -559,17 +779,17 @@
         "Name": "dummy",
         "Description": ""
       },
-	  {
+      {
         "Type": "float",
         "Name": "RunSpeed",
         "Description": ""
       },
-	  {
+      {
         "Type": "float",
         "Name": "WalkSpeed",
         "Description": ""
       }
-	]
+    ]
   },
   {
     "Index": "0x6026",
@@ -582,7 +802,7 @@
         "Name": "unitID",
         "Description": ""
       }
-	]
+    ]
   },
   {
     "Index": "0x6027",
@@ -600,7 +820,7 @@
         "Name": "enable",
         "Description": ""
       }
-	]
+    ]
   },
   {
     "Index": "0x6028",
@@ -628,7 +848,7 @@
         "Name": "colors",
         "Description": "bitfield of the colors that the switch can affect"
       }
-	]
+    ]
   },
   {
     "Index": "0x6029",
@@ -646,7 +866,7 @@
         "Name": "group",
         "Description": ""
       }
-	]
+    ]
   },
   {
     "Index": "0x602a",
@@ -669,15 +889,14 @@
         "Name": "current_color",
         "Description": "vanilla implementation doesn't change the color in code, so this serves to update the light manually through script"
       }
-	]
+    ]
   },
   {
     "Index": "0x602b",
     "ReturnType": "void",
     "Name": "FLD_GMC_LIGHT_FREE",
     "Description": "Free light puzzle data (hopefully prevents crashes)",
-    "Parameters": [
-	]
+    "Parameters": []
   },
   {
     "Index": "0x602c",
@@ -685,12 +904,12 @@
     "Name": "FLD_PC_GET_WEAPON_RESHND",
     "Description": "Gets the resource handle of the player model's weapon.",
     "Parameters": [
-		{
-			"Type": "int",
-			"Name": "playerHandle",
-			"Description": "player model resource handle."
-		}
-	]
+      {
+        "Type": "int",
+        "Name": "playerHandle",
+        "Description": "player model resource handle."
+      }
+    ]
   },
   {
     "Index": "0x602d",
@@ -698,12 +917,12 @@
     "Name": "FLD_PC_GET_WEAPON_RESHND2",
     "Description": "Gets the resource handle of the player model's 2nd weapon.",
     "Parameters": [
-		{
-			"Type": "int",
-			"Name": "playerHandle",
-			"Description": "player model resource handle."
-		}
-	]
+      {
+        "Type": "int",
+        "Name": "playerHandle",
+        "Description": "player model resource handle."
+      }
+    ]
   },
   {
     "Index": "0x602e",
@@ -711,12 +930,12 @@
     "Name": "FLD_PC_GET_GUN_RESHND",
     "Description": "Gets the resource handle of the player model's 2nd gun.",
     "Parameters": [
-		{
-			"Type": "int",
-			"Name": "playerHandle",
-			"Description": "player model resource handle."
-		}
-	]
+      {
+        "Type": "int",
+        "Name": "playerHandle",
+        "Description": "player model resource handle."
+      }
+    ]
   },
   {
     "Index": "0x602f",
@@ -724,12 +943,12 @@
     "Name": "FLD_PC_GET_GUN_RESHND2",
     "Description": "Gets the resource handle of the player model's 2nd gun.",
     "Parameters": [
-		{
-			"Type": "int",
-			"Name": "playerHandle",
-			"Description": "player model resource handle."
-		}
-	]
+      {
+        "Type": "int",
+        "Name": "playerHandle",
+        "Description": "player model resource handle."
+      }
+    ]
   },
   {
     "Index": "0x6030",
@@ -737,22 +956,22 @@
     "Name": "MDL_TRACK_ANIM_SPEED",
     "Description": "sets the speed of a currently playing blend anim",
     "Parameters": [
-		{
-			"Type": "int",
-			"Name": "model resource handle",
-			"Description": "target model resource handle."
-		},
-		{
-			"Type": "int",
-			"Name": "blend anim handle",
-			"Description": "blend anim handle"
-		},
-		{
-			"Type": "float",
-			"Name": "anim speed",
-			"Description": "anim speed"
-		}
-	]
+      {
+        "Type": "int",
+        "Name": "model resource handle",
+        "Description": "target model resource handle."
+      },
+      {
+        "Type": "int",
+        "Name": "blend anim handle",
+        "Description": "blend anim handle"
+      },
+      {
+        "Type": "float",
+        "Name": "anim speed",
+        "Description": "anim speed"
+      }
+    ]
   },
   {
     "Index": "0x6031",
@@ -760,22 +979,22 @@
     "Name": "MDL_TRACK_ANIM_SEEK",
     "Description": "skips to a specific frame of a blend anim",
     "Parameters": [
-		{
-			"Type": "int",
-			"Name": "model resource handle",
-			"Description": "target model resource handle."
-		},
-		{
-			"Type": "int",
-			"Name": "blend anim handle",
-			"Description": "blend anim handle"
-		},
-		{
-			"Type": "int",
-			"Name": "anim frame",
-			"Description": "anim frame"
-		}
-	]
+      {
+        "Type": "int",
+        "Name": "model resource handle",
+        "Description": "target model resource handle."
+      },
+      {
+        "Type": "int",
+        "Name": "blend anim handle",
+        "Description": "blend anim handle"
+      },
+      {
+        "Type": "int",
+        "Name": "anim frame",
+        "Description": "anim frame"
+      }
+    ]
   },
   {
     "Index": "0x6032",
@@ -783,22 +1002,22 @@
     "Name": "FLD_GET_GROUND_Y",
     "Description": "takes field coordinates and returns the y value of the ground collision",
     "Parameters": [
-		{
-			"Type": "float",
-			"Name": "x",
-			"Description": ""
-		},
-		{
-			"Type": "float",
-			"Name": "y",
-			"Description": ""
-		},
-		{
-			"Type": "float",
-			"Name": "z",
-			"Description": ""
-		}
-	]
+      {
+        "Type": "float",
+        "Name": "x",
+        "Description": ""
+      },
+      {
+        "Type": "float",
+        "Name": "y",
+        "Description": ""
+      },
+      {
+        "Type": "float",
+        "Name": "z",
+        "Description": ""
+      }
+    ]
   },
   {
     "Index": "0x6033",
@@ -806,22 +1025,22 @@
     "Name": "MDL_TRACK_ANIM_SEEK_TIME",
     "Description": "skips to a specific frame of a blend anim",
     "Parameters": [
-		{
-			"Type": "int",
-			"Name": "model resource handle",
-			"Description": "target model resource handle."
-		},
-		{
-			"Type": "int",
-			"Name": "blend anim handle",
-			"Description": "blend anim handle"
-		},
-		{
-			"Type": "float",
-			"Name": "anim time",
-			"Description": "anim time"
-		}
-	]
+      {
+        "Type": "int",
+        "Name": "model resource handle",
+        "Description": "target model resource handle."
+      },
+      {
+        "Type": "int",
+        "Name": "blend anim handle",
+        "Description": "blend anim handle"
+      },
+      {
+        "Type": "float",
+        "Name": "anim time",
+        "Description": "anim time"
+      }
+    ]
   },
   {
     "Index": "0x6034",
@@ -829,22 +1048,22 @@
     "Name": "MDL_TRACK_ANIM_FRAMESYNC",
     "Description": "Waits until a specific blend animation frame is hit",
     "Parameters": [
-		{
-			"Type": "int",
-			"Name": "model resource handle",
-			"Description": "target model resource handle."
-		},
-		{
-			"Type": "int",
-			"Name": "blend anim handle",
-			"Description": "blend anim handle"
-		},
-		{
-			"Type": "int",
-			"Name": "anim frame",
-			"Description": "anim frame"
-		}
-	]
+      {
+        "Type": "int",
+        "Name": "model resource handle",
+        "Description": "target model resource handle."
+      },
+      {
+        "Type": "int",
+        "Name": "blend anim handle",
+        "Description": "blend anim handle"
+      },
+      {
+        "Type": "int",
+        "Name": "anim frame",
+        "Description": "anim frame"
+      }
+    ]
   },
   {
     "Index": "0x6035",
@@ -852,21 +1071,21 @@
     "Name": "MDL_TRACK_ANIM_TIMESYNC",
     "Description": "Waits until a specific blend animation time is hit",
     "Parameters": [
-		{
-			"Type": "int",
-			"Name": "model resource handle",
-			"Description": "target model resource handle."
-		},
-		{
-			"Type": "int",
-			"Name": "blend anim handle",
-			"Description": "blend anim handle"
-		},
-		{
-			"Type": "float",
-			"Name": "anim time",
-			"Description": "anim time"
-		}
-	]
+      {
+        "Type": "int",
+        "Name": "model resource handle",
+        "Description": "target model resource handle."
+      },
+      {
+        "Type": "int",
+        "Name": "blend anim handle",
+        "Description": "blend anim handle"
+      },
+      {
+        "Type": "float",
+        "Name": "anim time",
+        "Description": "anim time"
+      }
+    ]
   }
 ]
