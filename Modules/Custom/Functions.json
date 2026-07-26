@@ -35,47 +35,22 @@
     "Comment": ""
   },
   {
-    "Index": "0x0188",
+    "Index": "0x0183",
     "ReturnType": "int",
-    "Name": "CHK_PERSONA_EVOLUTION",
+    "Name": "GET_ITEM_TYPE",
     "Description": "",
     "Parameters": [
       {
         "Type": "int",
-        "Name": "param1",
+        "Name": "",
         "Description": ""
       }
-    ],
-    "Comment": ""
+    ]
   },
   {
-    "Index": "0x1064",
-    "ReturnType": "void",
-    "Name": "FLD_GET_SEED",
-    "Description": "",
-    "Parameters": [],
-    "Comment": ""
-  },
-  {
-    "Index": "0x1192",
+    "Index": "0x0188",
     "ReturnType": "int",
-    "Name": "FLD_CHECK_SUBJECT_MODE",
-    "Description": "",
-    "Parameters": [],
-    "Comment": ""
-  },
-  {
-    "Index": "0x12c8",
-    "ReturnType": "float",
-    "Name": "FLD_CAMERA_GET_YAW",
-    "Description": "",
-    "Parameters": [],
-    "Comment": ""
-  },
-  {
-    "Index": "0x12cc",
-    "ReturnType": "int",
-    "Name": "FLD_PC_ID_GET_CURRENT_RESHND",
+    "Name": "CHK_PERSONA_EVOLUTION",
     "Description": "",
     "Parameters": [
       {
@@ -1085,6 +1060,19 @@
         "Type": "float",
         "Name": "anim time",
         "Description": "anim time"
+      }
+    ]
+  },
+  {
+    "Index": "0x6036",
+    "ReturnType": "int",
+    "Name": "EX_GET_ITEM_TYPE",
+    "Description": "",
+    "Parameters": [
+      {
+        "Type": "int",
+        "Name": "",
+        "Description": ""
       }
     ]
   }
