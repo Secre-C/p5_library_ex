@@ -684,7 +684,7 @@
   {
     "Index": "0x601C",
     "ReturnType": "void",
-    "Name": "FLD_GET_SEED",
+    "Name": "EX_FLD_GET_SEED",
     "Description": "",
     "Parameters": []
   },
@@ -704,14 +704,14 @@
   {
     "Index": "0x601E",
     "ReturnType": "int",
-    "Name": "FLD_CAMERA_CHECK_LOCK",
+    "Name": "EX_FLD_CAMERA_CHECK_LOCK",
     "Description": "",
     "Parameters": []
   },
   {
     "Index": "0x601F",
     "ReturnType": "int",
-    "Name": "FLD_CHECK_SUBJECT_MODE",
+    "Name": "EX_FLD_CHECK_SUBJECT_MODE",
     "Description": "",
     "Parameters": []
   },
@@ -771,7 +771,7 @@
   {
     "Index": "0x6025",
     "ReturnType": "void",
-    "Name": "FLD_PC_SET_MOVE_SPEED",
+    "Name": "EX_FLD_PC_SET_MOVE_SPEED",
     "Description": "Change player speed params",
     "Parameters": [
       {
@@ -794,7 +794,7 @@
   {
     "Index": "0x6026",
     "ReturnType": "int",
-    "Name": "CHK_PERSONA_EVOLUTION",
+    "Name": "EX_CHK_PERSONA_EVOLUTION",
     "Description": "Get the persona evolution tier",
     "Parameters": [
       {
@@ -999,7 +999,7 @@
   {
     "Index": "0x6032",
     "ReturnType": "float",
-    "Name": "FLD_GET_GROUND_Y",
+    "Name": "EX_FLD_GET_GROUND_Y",
     "Description": "takes field coordinates and returns the y value of the ground collision",
     "Parameters": [
       {
