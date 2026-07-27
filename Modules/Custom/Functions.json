@@ -35,19 +35,6 @@
     "Comment": ""
   },
   {
-    "Index": "0x0183",
-    "ReturnType": "int",
-    "Name": "GET_ITEM_TYPE",
-    "Description": "",
-    "Parameters": [
-      {
-        "Type": "int",
-        "Name": "",
-        "Description": ""
-      }
-    ]
-  },
-  {
     "Index": "0x0188",
     "ReturnType": "int",
     "Name": "CHK_PERSONA_EVOLUTION",
@@ -1060,19 +1047,6 @@
         "Type": "float",
         "Name": "anim time",
         "Description": "anim time"
-      }
-    ]
-  },
-  {
-    "Index": "0x6036",
-    "ReturnType": "int",
-    "Name": "EX_GET_ITEM_TYPE",
-    "Description": "",
-    "Parameters": [
-      {
-        "Type": "int",
-        "Name": "",
-        "Description": ""
       }
     ]
   }
